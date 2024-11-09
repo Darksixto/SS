@@ -38,7 +38,7 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Blue " No te preocupes amigo, esto no es un virus solo algo de la ss xD " -NoNewLine
+Write-Host -ForegroundColor Blue " No te asustes!! solo es una tool para la SS!! " -NoNewLine
 Write-Host -ForegroundColor Yellow " Procesando...";
 Write-Host "";
 
