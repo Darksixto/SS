@@ -38,13 +38,13 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Blue " No te asustes!! solo es una tool para la SS!! " -NoNewLine
-Write-Host -ForegroundColor Yellow " Procesando...";
+Write-Host -ForegroundColor Blue " Bueno buen mamañema, eto no e un viru no te asuste, tu ere sospechoso del torneo de cb asi que cuidao con lo que tienes mamasijalla " -NoNewLine
+Write-Host -ForegroundColor Yellow " Rapando a tu madre...";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
 if (!(Test-Admin)) {
-    Write-Warning "Ejecutalo como admin v:"
+    Write-Warning "Diablo pero que animal eres, ejecutalo como admin"
     Start-Sleep 10
     Exit
 }
