@@ -38,8 +38,8 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Blue " DarkPVP Bam " -NoNewLine
-Write-Host -ForegroundColor Yellow " Procesando... ";
+Write-Host -ForegroundColor Red " DarkPVP BAM " -NoNewLine
+Write-Host -ForegroundColor Green " Procesando... ";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
