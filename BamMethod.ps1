@@ -121,4 +121,4 @@ $Bam | Out-GridView -PassThru -Title "Entradas BAM: $($Bam.count)  - Zona Horari
 $sw.stop()
 $t = $sw.Elapsed.TotalMinutes
 Write-Host ""
-Write-Host "Se tardo $t Minutos" -ForegroundColor Yellow
+Write-Host "Se tardo $t Minutos" -ForegroundColor Green
