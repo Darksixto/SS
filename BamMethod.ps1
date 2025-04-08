@@ -38,13 +38,13 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Blue " Bueno buen mamañema, eto no e un viru no te asuste, tu ere sospechoso del torneo de cb asi que cuidao con lo que tienes mamasijalla " -NoNewLine
-Write-Host -ForegroundColor Yellow " Rapando a tu madre...";
+Write-Host -ForegroundColor Blue " DarkPVP Bam " -NoNewLine
+Write-Host -ForegroundColor Yellow " Procesando... ";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
 if (!(Test-Admin)) {
-    Write-Warning "Diablo pero que animal eres, ejecutalo como admin"
+    Write-Warning "Ejecuta el cmd como admin"
     Start-Sleep 10
     Exit
 }
@@ -71,7 +71,7 @@ $Bam = Foreach ($Sid in $Users){$u++
             
         foreach($rp in $rpath){
            $BamItems = Get-Item -Path "$($rp)UserSettings\$Sid" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Property
-           Write-Host -ForegroundColor Green "Extrayendo " -NoNewLine
+           Write-Host -ForegroundColor Green "Extracting.. " -NoNewLine
            Write-Host -ForegroundColor Blue "$($rp)UserSettings\$SID"
            $bi = 0 
 
