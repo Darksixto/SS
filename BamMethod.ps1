@@ -38,7 +38,7 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Red "DarkPVP BAM" -NoNewLine
+Write-Host -ForegroundColor Cyan "Atraec BAM" -NoNewLine
 Write-Host -ForegroundColor Green "Procesando...";
 Write-Host "";
 
